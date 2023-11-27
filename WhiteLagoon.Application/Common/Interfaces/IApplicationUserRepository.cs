@@ -7,8 +7,7 @@ using WhiteLagoon.Domain.Entities;
 
 namespace WhiteLagoon.Application.Common.Interfaces
 {
-    public interface IAmenityRepository : IRepository<Amenity>
+    public interface IApplicationUserRepository : IRepository<ApplicationUser>
     {
-        void Update(Amenity amenity);
     }
 }
